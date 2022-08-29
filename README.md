@@ -1,8 +1,8 @@
-# 🚀 Project Template
+# Summary
 
-The <span style="color:#3EACAD">template</span> is a standardized, but flexible *project* and *documentation* structure of folders and files for sharing your data science work.
-
-Inspired by [literate programming](http://www.literateprogramming.com) and the [Cookiecutter Data Science](https://drivendata.github.io/cookiecutter-data-science/), maintained by the [World Bank Data Lab](https://wbdatalab.org) and built as [GitHub template repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template), the <span style="color:#3EACAD">template</span> contains:
+The primary dataset used in this analysis is World Settlement Footprint Evolution (WSFE), an Earth Observation dataset developed by the German Aerospace Center (DLR) in partnership with the World Bank Satellite Monitoring Service of Urbanization in Africa (SMSUA) project.12 WSFE tracks growth of settlement extents at 30-meter spatial resolution and yearly temporal resolution from 1985 to 2015. 
+We combined WSFE yearly extent layers with GRID313 settlement typology and settlement-constrained population estimates from WorldPop14 to define the boundaries of urban agglomerations, characterize their population density and urban type, and track their change over time. We then overlaid WSFE on the 10-meter World Settlement Footprint 2019 (WSF2019) global binary dataset to capture more recent urban build-up. Information on urbanization and economic characteristics are drawn from Systematic Country Diagnostics, World Bank 2018 Sahelian country poverty assessments, International Organization for Migration, UN Refugee Agency (UNHCR), and the recent policy note, Sahel, The Urban Link: Transforming Rural Economies and Addressing Fragility (P175684).
+This brief is one of a series on urban built-area growth for countries in Western and Central Africa. Please contact the EAWPV Geospatial Team to learn more.
 
 - **README**, **CODE_OF_CONDUCT**, **CONTRIBUTING**
     > README files are important and often neglected. The files should provide anyone with information about the first steps to use, learn and contribute to your project.
