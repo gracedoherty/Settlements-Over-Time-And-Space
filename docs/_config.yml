@@ -4,7 +4,7 @@ author: World Bank Development Data Group
 logo: docs/images/logo.png
 
 repository:
-    url: https://github.com/worldbank/template
+    url: https://github.com/gracedoherty/Geotemporal-Urbanization-in-the-Sahel
     branch: main
 
 html:
